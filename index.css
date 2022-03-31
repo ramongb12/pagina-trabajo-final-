@@ -1,0 +1,428 @@
+@import url(https://fonts.google.com/specimen/Be+Vietnam);
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    
+    
+
+}
+
+html{
+    font-size: 16px;
+}
+
+
+
+header nav ul li a{
+    text-decoration: none;
+    font-weight: 500,medium;
+    color: #242E52;
+    
+  
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 75px 32px;
+    max-width: 1440px;
+    width: 100%;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header nav ul li{
+    margin-right: 28px;
+}
+
+header nav ul li:nth-child(5){
+    color: #242E52;
+    
+}
+
+header button{
+    
+    width: 134px;
+    height: 44px;
+    background-color: #F3603B;
+    color: aliceblue;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+header > img{
+    display: none;
+}
+
+
+/* -----------------------  container-1 ------------------------- */
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+
+main section.home {
+   display: flex;
+   justify-content: space-between;
+   max-width: 1440px;
+   width: 100%;
+   padding: 0px 32px;
+   align-items: center;
+}
+
+
+
+main section.home div h4{
+    font-size: 58px;
+    font-weight: 700,bold;
+    max-width: 480px;
+    color: #242E52;
+
+}
+
+main section.home div p{
+    max-width: 350px;
+    font-weight: 500,bold;
+    align-items: center;
+    margin: 28px 0px;
+    line-height: 157.1%;
+}
+
+main section.home div button{
+    width: 134px;
+    height: 44px;
+    background-color: #F3603B;
+    border: none;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+}
+
+
+/* --------------------------- HOME2 ---------------------------------- */
+
+
+
+main section.home-2{
+    display: flex;
+    max-width: 1440px;
+    width: 100%;
+    padding: 0px 32px;
+    margin-top: 100px;
+
+   
+}
+
+.home-2-texto1{
+    width: 100%;
+}
+
+.home-2-article{
+    width: 100%;
+}
+
+main section.home-2 .home-2-texto1 h3{
+  max-width: 100%;
+  font-size: 36px;
+  color: #242E52;
+  font-weight: 700,bold;
+  padding: 36px 0px;
+  
+}
+
+main section.home-2 .home-2-texto1 p{
+    line-height: 24px;
+    max-width: 100%;
+    align-items: center;
+}
+
+/* ----------------------------- Home 2 article ------------------------- */
+
+
+.home-2-article .titulo{
+    display: flex;
+    align-items: center;
+}
+
+
+main section.home-2 .home-2-article article button{
+    background-color: #F3603B;
+    width: 69px;
+    height: 43px;
+    border: none;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+   line-height: 26px;
+   font-weight: 700,bold;
+    
+}
+
+main section.home-2 .home-2-article article h5{
+    font-size: 16px;
+    color: #323851;
+    font-weight: 700;
+    padding:  12px;
+}
+
+main section.home-2 .home-2-article article p{
+
+    color: #B3B2B7;
+    line-height: 25px;
+    padding-left: 80px;
+}
+
+
+/* ------------------------------ CARDS ------------------------ */
+
+
+main section.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main section.cards h2{
+    font-size: 39px;
+    color: #242E52;
+    font-weight: 700,bold;
+    margin: 132px 0px 74px 0px;
+}
+
+main section.cards div{
+    display: flex;
+   
+}
+
+main section.cards div article{
+   background-color: #ffffffea;
+    padding: 38px 21px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+main section.cards div article img{
+   
+    margin-bottom: 21px;
+}
+
+main section.cards div article span{
+    display: block;
+    color: #242E52;
+    font-weight: 700;
+}
+
+main section.cards div article p{
+    font-weight: 600;
+    color: #B9B9C1;
+    margin: 21px 28px 39px 27px;
+
+}
+
+main section.cards button{
+    background-color: #F3603B;
+    color: aliceblue;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    width: 134px;
+    height: 44px;
+    position: relative;
+    left: 20px;
+    margin-top: 45px;
+}
+
+
+/* ----------------------------- CAJA NARANJA ---------------------*/
+
+main div.caja-naranja{
+    width: 100%;
+    display: flex;
+    background-color: #F3603B;
+    justify-content: space-around;
+    height: 224px;
+    align-items: center;
+    margin-top: 180px;
+   
+}
+
+main div.caja-naranja p{
+   font-size: 40px;
+   color: rgb(255, 255, 255);
+   width: 438px;
+   font-weight: 700,bold;
+   line-height: 48px;
+}
+
+main div.caja-naranja button{
+    background-color: rgb(255, 255, 255);
+    width: 134px;
+    height: 44px;
+    border: none;
+    border-radius: 30px;
+    color: #F3603B;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+/* -------------------- FOOTEER -------------------------- */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.caja-contenedora{
+    width: 100%;
+    background-color: #242E52;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 152px 160px;
+    
+}
+
+.caja-contenedora .primera-caja>img{
+    padding-left: 40px;
+}
+
+.primera-caja .icons{
+ display: flex;
+ list-style: none;
+ width: 100%;
+ justify-content: space-around;
+}
+
+.segunda-caja .lista{
+    justify-content: space-between;
+     flex-direction: column;    
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+
+
+
+
+.segunda-caja{
+    display: flex;
+}
+
+.segunda-caja .lista{
+    list-style-type: none;
+    width: 100%;
+    
+   
+}
+
+.segunda-caja .lista li{
+    padding-bottom: 12px;
+}
+
+.segunda-caja .lista li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+.tercera-caja button{
+    
+   
+    border: none;
+    background-color: #F3603B;
+    color: #ffffffff;
+    border-radius: 50px;
+    
+}
+
+input{
+    width: 201px;
+    text-align: center;
+    height: 44px;
+    border-radius: 50px;
+    color: #A0A0A0;
+}
+
+
+i{
+    color: rgb(255, 255, 255);
+    
+}
+
+
+/* ------------------------------ MEDIAA QUERIE -------------------- */
+
+@media (max-width: 860px) {
+    header nav{
+        display: none;
+
+    }
+
+    header button{
+        display:none;
+    }
+
+    header >img{
+        display: block;
+    }
+    
+    main section.home{
+        flex-direction: column-reverse;
+    }
+
+    main section.home div{
+        text-align: center;
+    }
+
+    main section.home div p{
+        margin: 28px auto;
+    }
+
+    main section.home-2{
+        flex-direction: column;
+         text-align: center;
+    }
+    main section.home-2 .home-2-article article p{
+
+        padding-left: 80px;
+    }
+
+    .home-2-article .titulo{
+        
+        border-radius: 50px 0 0 50px;
+    }
+
+    .card-oculta{
+        display: none;
+    }
+
+    footer .caja-contenedora{
+        flex-direction: column-reverse;
+        
+    }
+    
+    footer .caja-contenedora div{
+        margin: 40px;
+        
+    }
+
+    form button{
+        display: none;
+    }
+
+}
